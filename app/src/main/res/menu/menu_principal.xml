@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/opcOrdenar"
+        android:title="Ordenar" >
+        <menu >
+            <item
+                android:id="@+id/opcOrdNom"
+                android:title="Por nombre" />
+            <item
+                android:id="@+id/opcOrdNumHab"
+                android:title="Por numero habitantes" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/opcSalir"
+        android:title="Salir" />
+</menu>
